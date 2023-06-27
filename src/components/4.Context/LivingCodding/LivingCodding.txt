@@ -1,0 +1,4 @@
+// Imaginemos que estás creando una aplicación de tareas y quieres tener un contexto 
+// para almacenar y acceder a la lista de tareas en diferentes componentes.
+// El componente TaskList debe utilizar useContext para obtener la lista de tareas del 
+// contexto. Luego, itera sobre las tareas y las debe de mostrar en una lista.
