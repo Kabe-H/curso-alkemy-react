@@ -15,6 +15,7 @@ import Footer from "./components/5.MUI/Footer/Footer";
 import Header from "./components/5.MUI/Header/Header";
 import Fetch from "./components/6.API/Fetch/Fetch";
 import Axios from "./components/6.API/Axios/Axios";
+import ContenedorArray from "./components/7.Array/ContenedorArray/ContenedorArray";
 
 function App() {
   return (
@@ -64,6 +65,9 @@ function App() {
         </Grid>
         <Grid item xs={12}>
           <Axios />
+        </Grid>
+        <Grid item xs={12}>
+          <ContenedorArray />
         </Grid>
       </Grid>
       <Footer />
